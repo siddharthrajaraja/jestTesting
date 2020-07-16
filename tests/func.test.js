@@ -30,7 +30,7 @@ test(('check Palindrome or not !!'),()=>{
     expect(isPalindrome('reshma')).toBe('reshma is not Palindrome.')
 })
 
-test(('Find The Nth Fibonacci'),()=>{
+test.only(('Find The Nth Fibonacci'),()=>{
     expect(findNthFibo(10)).toBe(55)
 })
 
